@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint tarjeta</title>
+    <link rel="stylesheet" href="SprintCard.css">
+    
+</head>
+<body>
+    <div>
+        <img id="mobile" src="imágenes/bg-main-mobile.png" alt="imagenmobile">
+    </div>
+    <div id="fondo">
+        <img id="imagenFondo" src="imágenes\bg-main-desktop.png" alt="">
+    </div>
+    <main>
+        <form action="">
+            <div class="flexColumn">
+                <label>CARDHOLDER NAME</label>
+                <input type="text" placeholder="e.g. Jhonatan Leyton" value="">
+            </div>
+            <div class="flexColumn">
+                <label>CARD DNUMBER</label>
+                <input type="text" placeholder="e.g. 1234 5678 9999 0000" value="">
+            </div>
+            <div class="dFlex justContent">
+                <div class="dFlex wid50 justContent">
+                    <div class="flexColumn wid45">
+                        <label>EXP.DATE</label>
+                        <input type="text" placeholder="MM" value="">
+                    </div>
+                    <div class="flexColumn wid45">
+                        <label>(MM/YY)</label>
+                        <input type="text" placeholder="YY" value="">
+                    </div>
+                </div>
+                <div class="flexColumn wid50">
+                    <label>CVC</label>
+                    <input type="text" placeholder="e.g 123">
+                </div>
+            </div>
+            <button>Confirm</button>
+        </form>
+    </main>
+     <figure>
+        <div id="front">
+            <img class="tarjetas" src="imágenes\bg-card-front.png" alt="">
+            <div class="pelotita">
+                <div class="circulo1"></div>
+                <div class="circulo2"></div>
+            </div>
+            <div class="textoTarjeta">
+                <p>0000 0000 0000 0000</p>
+                <div class="dFlex justContent">
+                    <p>JHONATAN LEYTON</p>
+                    <p>00/00</p>
+                </div>
+            </div>
+        </div>
+        <div id="back">
+            <img class="tarjetas" src="imágenes\bg-card-back.png" alt="">
+            <div class="textoTarjetaBack">
+                <p>000</p>
+            </div>
+        </div>
+    </figure>
+</body>
+</html>
+
+
+
